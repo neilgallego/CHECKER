@@ -55,8 +55,11 @@
 		   echo	"<td><center>$varname</center></td>";
 
 		   echo "<td>
-		   		<input type='button' value='Change'>.
-		   		</><input type='button' value='✓'></></td>";
+		   		<form method='POST' action='editorder.php' target='iframe_c'> 
+		   		<input type='hidden' name='$vartable' value='$vartable'>
+		   		 <input type='submit' value='CHANGE'>
+		   		</form>"
+		   		;
 
 		   echo "</tr>";
        						  
