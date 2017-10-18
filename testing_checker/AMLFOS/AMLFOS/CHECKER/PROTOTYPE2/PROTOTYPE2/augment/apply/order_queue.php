@@ -53,7 +53,11 @@
 		   echo	"<td><center>$varwaiter</center></td>";
 		   echo	"<td><center>$varquantity</center></td>";
 		   echo	"<td><center>$varname</center></td>";
-		   echo "<td><input type='button' value='Change'></><input type='button' value='✓'></></td>";
+
+		   echo "<td>
+		   		<input type='button' value='Change'>.
+		   		</><input type='button' value='✓'></></td>";
+
 		   echo "</tr>";
        						  
 		   echo "<div>";  
